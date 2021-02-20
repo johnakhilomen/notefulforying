@@ -1,0 +1,125 @@
+#root
+{
+  width: 100vw;
+  height: 100vh;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: hiddens;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0x;
+  padding: 0px;
+}
+h1{
+  text-align: center;
+}
+.app
+{
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-gap: 10px;
+
+}
+.main
+{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 100vh;
+  margin-top: 23px;
+
+}
+header{
+  background-color: #1b7fc2;
+  color: #ffffff;
+  padding: 1em 0;
+  border-bottom: 1px solid gray;
+}
+
+.headSection
+{
+  width:100%;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar
+{
+  background-color: #d5d5d5;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.notes
+{
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+ul li button
+{
+  /* width:50%;
+  height: auto;
+  padding: 20px;
+  background-color: #1b7fc2;
+  font-size: 18px;
+  margin: 10px auto;
+  color:#ffffff; */
+  /* --note-button-height: 32px; */
+  background-color: #041a3a;
+  border: 0;
+  color: #bdbcbc;
+  /* float: right; */
+  font-size: 12px;
+  /* height: var(--note-button-height); */
+  /* position: relative; */
+  /* top: calc((var(--note-button-height) + 32px) * -1); */
+  /* transform-origin: right bottom; */
+  /* transform: rotate(-90deg); */
+  /* width: calc(var(--note-height)); */
+}
+
+input
+{
+  width:60%;
+  height: 20px;
+  padding: 20px;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+.roundButton{
+  background-color: #1b7fc2;
+  border-radius: 50px;
+  border: 0;
+  color: #ffffff;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 60px;
+  padding: 16px 8px 8px;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+}
+
+a.roundButton{
+  padding: 16px 8px 8px;
+}
+
+.roundButton:hover{
+  cursor: pointer;
+}
+
+
+a{
+  text-decoration: none;
+}
